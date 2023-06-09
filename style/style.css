@@ -119,7 +119,7 @@ main {
 
 .what {
     margin-top: 130px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .what-title {
@@ -128,16 +128,72 @@ main {
     font-size: 35px;
 
 }
-.card-title{
+.with-icon{
+    margin-bottom: 20px;
+}
+.icon-title{
+    margin-bottom: 20px;
+}
+
+.card-title {
     margin-top: 50px;
     display: flex;
 }
 
-.card-section{
-    padding: 35px 40px 40px 10px;
+.card-section {
+    padding: 40px;
     box-shadow: 5px 5px 5px 5px rgb(140, 133, 133);
     margin: 20px;
     border-radius: 10px;
+}
 
+/* summer section  */
 
+.summer {
+    margin: 130px;
+
+}
+
+.summer-title {
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.summer-section {
+    align-items: center;
+}
+
+.education-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 35px;
+
+}
+
+.education-catagore {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sub-catagore {
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+}
+
+.desciptaion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.header{
+    margin-bottom: 20px;
 }
